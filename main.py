@@ -44,7 +44,7 @@ class TankRenderer3D:
         self.sidebar.pack(side=tk.LEFT, fill=tk.Y)
         self.sidebar.pack_propagate(False)
 
-        tk.Label(self.sidebar, text="3D STUDIO PRO", bg='#0f0f0f', fg='#00eaff', font=('Arial', 16, 'bold')).pack(pady=20)
+        tk.Label(self.sidebar, text="KENJI 3D STUDIO", bg='#0f0f0f', fg='#00eaff', font=('Arial', 16, 'bold')).pack(pady=20)
         tk.Button(self.sidebar, text="📂 Upload .obj File", command=self.open_obj_file, bg='#005bb7', fg='white', font=('Arial', 10, 'bold'), relief=tk.FLAT).pack(fill=tk.X, padx=20, pady=10)
         
         tk.Label(self.sidebar, text="SHAPES", bg='#0f0f0f', fg='#555555', font=('Arial', 8, 'bold')).pack(pady=(10, 0))
