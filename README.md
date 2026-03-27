@@ -15,7 +15,7 @@ A high-performance, interactive 3D object renderer built with Python, featuring 
 - **Core Library:** Tkinter (GUI & Canvas Rendering)
 - **Math Library:** NumPy (Matrix transformations & Projections)
 - **Web Framework:** Gradio (Web App Interface)
-- **Development Tools:** Git, VS Code
+- **Development Tools:** Git, VS Code, Python
 
 ## 🚀 Installation & Setup
 
