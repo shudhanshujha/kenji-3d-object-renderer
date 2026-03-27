@@ -8,8 +8,8 @@ def render_3d(mesh_file):
     return mesh_file.name
 
 # --- Interface Setup ---
-with gr.Blocks(title="Python 3D Renderer Preview") as demo:
-    gr.Markdown("# 🚀 Python 3D Object Renderer (Web Preview)")
+with gr.Blocks(title="Kenji 3D Object Renderer Preview") as demo:
+    gr.Markdown("# 🚀 Kenji 3D Object Renderer (Web Preview)")
     gr.Markdown("Interact with 3D models directly in your browser. Supports `.obj`, `.stl`, `.glb`, and `.gltf`.")
     
     with gr.Row():

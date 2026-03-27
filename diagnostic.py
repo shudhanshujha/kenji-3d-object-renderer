@@ -3,7 +3,7 @@ import sys
 from OpenGL.GL import *
 
 def diagnostic():
-    print("--- 3D Renderer Diagnostic ---")
+    print("--- Kenji 3D Object Renderer Diagnostic ---")
     print(f"Python Version: {sys.version}")
     
     try:
